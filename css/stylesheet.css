@@ -26,6 +26,47 @@ body{
 	flex-direction: column;
 	align-items: center;
 }
+
+/*################################ HEADER ################################*/
+
+body *{
+	border: solid 1px red;
+}
+
+header{
+	width:1440px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+#header-top{
+	width: inherit;
+	height: 58px;
+	padding:0px 165px;
+}
+
+#header-main{
+	width: inherit;
+	height: 480px;
+}
+
+/*################################ MAIN ################################*/
+
+main{
+	width: 1440px;
+	height: 971px;
+	margin-top: 30px;
+}
+
+/*################################ FOOTER ################################*/
+footer{
+	width: 272px;
+	height: 26px;
+	margin-top: 128px;
+}
+
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
