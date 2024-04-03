@@ -105,9 +105,54 @@ header{
 main{
 	width: 1440px;
 	height: 971px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
 	margin-top: 30px;
 }
+main > div{
+	width: inherit;
+}
+#main-description{
+	height: 480px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
 
+#description-greyDeco{
+	width: 170px;
+	height: 210px;
+	margin-top: 270px;
+}
+
+#description-pic01{
+	width: 255px;
+	height: inherit;
+}
+
+#description-pic02{
+	width: 445px;
+	height: inherit;
+}
+#description-text{
+	width: 480px;
+	height: inherit;
+	padding: 112px 0px 0px 60px;
+}
+#description-text > *{
+	width: 255px;
+}
+#description-text h2{
+	margin:0px;
+}
+#description-text p{
+	margin: 27px 0px 0px;
+}
+#main-features{
+	height: 323px;
+}
 /*################################ FOOTER ################################*/
 footer{
 	width: 272px;
