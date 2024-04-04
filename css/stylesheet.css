@@ -198,6 +198,10 @@ main {
 #main-description-text {
 	width: 255px;
 	height: 265px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
 	margin: 112px 0px 0px 125px;
 }
 #main-description-text > * {
@@ -206,10 +210,11 @@ main {
 #main-description-text h2 {
 	margin: 0px;
 }
-/*------------ MAIN FEATURES ------------*/
 #main-description-text p {
 	margin: 27px 0px 0px;
 }
+/*------------ MAIN FEATURES ------------*/
+
 #main-features {
 	width: 1110px;
 	height: 323px;
@@ -353,57 +358,44 @@ footer p {
 	/*------------ MAIN DESCRIPTION ------------*/
 	#main-description {
 		width: inherit;
-		height: 480px;
-		display: flex;
-		flex-direction: row;
+		height: 504px;
+		flex-direction: column;
+		align-items: center;
 	}
 	#main-description-images {
-		width: 895px;
-		height: inherit;
-		display: flex;
-		flex-direction: row;
-		align-items: flex-start;
-	}
-	#description-images-greyDeco {
-		border-top-right-radius: 20px;
-		border-bottom-right-radius: 20px;
-		margin-top: 270px;
+		width: 375px;
+		height: 193px;
 	}
 	#description-images-pic01 {
-		width: 255px;
-		height: inherit;
-		background: url("../images/desktop/image-phone-and-keyboard.jpg") center/255px no-repeat;
-		border-radius: 20px;
-		margin: 0px 30px;
+		width: 107px;
+		background: url("../images/mobile/image-phone-and-keyboard.jpg") right/129px no-repeat;
+		margin: 0px 24px 0px 0px ;
+		border-radius: 0px 20px 20px 0px;
 	}
 	#pic01-mask {
-		width: inherit;
-		height: inherit;
-		background-color: #F16718;
-		mix-blend-mode: multiply;
-		border-radius: 20px;
+		border-radius: 0px 20px 20px 0px;
 	}
 	#description-images-pic02 {
-		width: 445px;
-		height: inherit;
-		background: url("../images/desktop/image-glass-and-keyboard.jpg") center/445px no-repeat;
-		border-radius: 20px;
+		width: 220px;
+		background: url("../images/mobile/image-glass-and-keyboard.jpg") center/220px no-repeat;
 	}
 	#main-description-text {
-		width: 255px;
-		height: 265px;
-		margin: 112px 0px 0px 125px;
-	}
-	#main-description-text > * {
-		width: inherit;
+		width: 327px;
+		height: 236px;
+		margin: 75px 0px 0px 0px;
+		align-items: center;
+		text-align: center;
 	}
 	#main-description-text h2 {
 		margin: 0px;
+		width: 255px;
 	}
-	/*------------ MAIN FEATURES ------------*/
+	
 	#main-description-text p {
+		width: 327px;
 		margin: 27px 0px 0px;
 	}
+	/*------------ MAIN FEATURES ------------*/
 	#main-features {
 		width: 1110px;
 		height: 323px;
