@@ -1,23 +1,21 @@
 @charset "utf-8";
-
-@font-face{
+@font-face {
 	font-family: 'Barlow black';
 	src: url("../fonts/Barlow-Black.woff") format('woff');
 	font-style: bold;
 	font-weight: 900;
 }
-
-@font-face{
+@font-face {
 	font-family: 'Barlow medium';
 	src: url("../fonts/Barlow-Medium.woff") format('woff');
 	font-style: normal;
 	font-weight: 500;
 }
 /*################################ GENERAL ################################*/
-*{
+* {
 	box-sizing: border-box;
 }
-body{
+body {
 	width: 100vw;
 	height: 100%;
 	margin: 0px;
@@ -26,73 +24,72 @@ body{
 	flex-direction: column;
 	align-items: center;
 }
-
-input[type="button"]{
+input[type="button"] {
 	width: 155px;
 	height: 58px;
 	font: bold 16px/26px 'Barlow medium';
 	border-radius: 8px;
-	border:none;
+	border: none;
 }
-input[type="button"]:hover{
+input[type="button"]:hover {
 	cursor: pointer;
 }
-h1{
+h1 {
 	font: 900 56px/56px 'Barlow black';
 	color: #162542;
 }
-h2{
+h2 {
 	font: 900 32px/36px 'Barlow black';
 	color: #162542;
 }
-h3{
+h3 {
 	font: 900 24px/28px 'Barlow black';
 	color: #162542;
 }
-.text-medium{
+.text-medium {
 	font: 500 16px/26px 'Barlow medium';
 	color: #7B8BAD;
 }
-.grey-deco{
+.grey-deco {
 	width: 135px;
 	height: 210px;
 	background-color: #E8EFF2;
 }
 /*################################ HEADER ################################*/
-header{
-	width:1440px;
+header {
+	width: 1440px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-top: 55px;
 }
 /*------------ HEADER-TOP ------------*/
-#header-top{
+#header-top {
 	width: inherit;
 	height: 58px;
-	padding:0px 165px;
+	padding: 0px 165px;
 	display: flex;
 	align-content: center;
-	justify-content:space-between;
+	justify-content: space-between;
 }
-#header-top > *{
-	margin:auto 0px;
+#header-top > * {
+	margin: auto 0px;
 }
-#top-logo{
+#top-logo {
 	width: 40px;
 	height: 40px;
 	background: url("../images/shared/logo.svg") center/40px no-repeat;
 }
-#header-top-button{
+#header-top-button {
 	background-color: #E8EFF2;
 	color: black;
 }
-#header-top-button:hover{
+#header-top-button:hover {
 	background-color: #162542;
 	color: white;
 }
 /*------------ HEADER-CONTENT ------------*/
-#header-content{
+#header-content {
 	width: inherit;
 	height: 480px;
 	display: flex;
@@ -100,8 +97,7 @@ header{
 	padding-left: 165px;
 	margin-top: 83px;
 }
-
-#header-content-info{
+#header-content-info {
 	width: 445px;
 	height: 312px;
 	display: flex;
@@ -109,51 +105,49 @@ header{
 	align-content: flex-start;
 	margin-top: 57px;
 }
-
-#header-content-info > *{
+#header-content-info > * {
 	width: inherit;
 }
-#header-content-info h1{
+#header-content-info h1 {
 	height: 112px;
 	margin: 0px;
 }
-
-#header-content-info > p{
+#header-content-info > p {
 	height: 78px;
 	margin: 24px 0px 40px;
 	font: 500 18px/26px 'Barlow medium';
 	color: #7B8BAD;
 }
-
-#header-content-info div{
+#header-content-info div {
 	height: 58px;
 	display: flex;
+	flex-direction: row;
 	align-content: center;
 	justify-content: flex-start;
-	line-height: 58px;
+	font: 500 16px/58px 'Barlow medium';
+	color: #7B8BAD;
 }
-#header-content-button{
+#header-content-button {
 	background-color: #F16718;
 	color: white;
 	margin: 0px 39px 0px 0px;
 }
-#header-content-button:hover{
-	background-color:#FF9B62;
+#header-content-button:hover {
+	background-color: #FF9B62;
 }
-#header-content-pic{
+#header-content-pic {
 	width: 540px;
 	height: inherit;
 	margin: 0px 30px 0px 125px;
 	background: url("../images/desktop/image-keyboard.jpg") right/540px 480px no-repeat;
 	border-radius: 20px;
 }
-#header-content-greyDeco{
+#header-content-greyDeco {
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 }
 /*################################ MAIN ################################*/
-
-main{
+main {
 	width: 1440px;
 	height: 971px;
 	display: flex;
@@ -163,70 +157,68 @@ main{
 	margin-top: 30px;
 }
 /*------------ MAIN DESCRIPTION ------------*/
-#main-description{
+#main-description {
 	width: inherit;
 	height: 480px;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
 }
-
-#description-greyDeco{
+#description-greyDeco {
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
 	margin-top: 270px;
 }
-
-#description-pic01{
+#description-pic01 {
 	width: 255px;
 	height: inherit;
 	background: url("../images/desktop/image-phone-and-keyboard.jpg") center/255px no-repeat;
 	border-radius: 20px;
 }
-#pic01-mask{
+#pic01-mask {
 	width: inherit;
 	height: inherit;
 	background-color: #F16718;
 	mix-blend-mode: multiply;
 	border-radius: 20px;
 }
-#description-pic02{
+#description-pic02 {
 	width: 445px;
 	height: inherit;
 	background: url("../images/desktop/image-glass-and-keyboard.jpg") center/445px no-repeat;
 	border-radius: 20px;
 }
-#description-text{
+#description-text {
 	width: 515px;
 	height: inherit;
 	padding: 112px 0px 0px 60px;
 }
-#description-text > *{
+#description-text > * {
 	width: 255px;
 }
-#description-text h2{
-	margin:0px;
+#description-text h2 {
+	margin: 0px;
 }
 /*------------ MAIN FEATURES ------------*/
-#description-text p{
+#description-text p {
 	margin: 27px 0px 0px;
 }
-#main-features{
+#main-features {
 	width: 1110px;
 	height: 323px;
-	display:grid;
+	display: grid;
 	grid-template-columns: 255px 255px 255px 255px;
 	grid-template-rows: 323px;
 	grid-template-areas: "compatible wireless battery rgb-mode";
 	grid-gap: 30px;
 }
-.feature{
+.feature {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	text-align: left;
 }
-.feature div{
+.feature div {
 	width: 65px;
 	height: 65px;
 	border-radius: 16px;
@@ -234,61 +226,123 @@ main{
 	background-position: center;
 	background-repeat: no-repeat;
 }
-.feature h3{
+.feature h3 {
 	width: 255px;
 	height: 56px;
-	margin:48px 0px 0px;
+	margin: 48px 0px 0px;
 }
-.feature p{
+.feature p {
 	width: 255px;
 	height: 130px;
 	margin: 24px 0px 0px;
 }
-#feat-compatible{
+#feat-compatible {
 	grid-area: compatible;
 }
-#featPic-compatible{
+#featPic-compatible {
 	background-image: url("../images/shared/icon-compatible.svg");
 	background-size: 26px;
 }
-#feat-wireless{
+#feat-wireless {
 	grid-area: wireless;
 }
-#featPic-wireless{
+#featPic-wireless {
 	background-image: url("../images/shared/icon-bluetooth.svg");
 	background-size: 19px;
 }
-#feat-battery{
-	grid-area:battery;
+#feat-battery {
+	grid-area: battery;
 }
-#featPic-battery{
+#featPic-battery {
 	background-image: url("../images/shared/icon-battery.svg");
 	background-size: 32px
 }
-#feat-rgb{
+#feat-rgb {
 	grid-area: rgb-mode;
 }
-#featPic-rgbMode{
+#featPic-rgbMode {
 	background-image: url("../images/shared/icon-light.svg");
 	background-size: 32px;
 }
 /*################################ FOOTER ################################*/
-footer{
+footer {
 	width: 272px;
 	height: 26px;
 	margin: 128px 0px 39px;
 }
-footer p{
+footer p {
 	margin: auto;
 	padding: 0px;
 }
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
-
 @media (min-width: 768px) and (max-width: 1023px) {}
-	/*------------------------ HEADER ------------------------*/
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
-@media screen and (max-width:480px) {}
+@media screen and (max-width:480px) {
+	/*------------------------ GENERAL ------------------------*/
+	input[type="button"] {
+		width: 151px;
+		height: 48px;
+	}
+	h1 {
+		font: 900 48px/48px 'Barlow black';
+	}
+	.grey-deco {
+		display: none;
+	}
+	/*------------------------ HEADER ------------------------*/
+	header {
+		width: 100vw;
+		margin-top: 23px;
+	}
+	/*------------ HEADER-TOP ------------*/
+	#header-top {
+		height: 48px;
+		padding: 0px 24px;
+	}
+	/*------------ HEADER-CONTENT ------------*/
+	#header-content {
+		width: inherit;
+		height: 681px;
+		padding: 0px 24px;
+		margin-top: 64px;
+	}
+	#header-content-info {
+		width: 327px;
+		height: 286px;
+		margin-top: 0px;
+	}
+	#header-content-info h1 {
+		height: 96px;
+	}
+	#header-content-info > p {
+		margin: 32px 0px 32px;
+		font-size: 16px;
+	}
+	#header-content-info div {
+		height: 48px;
+		line-height: 48px;
+	}
+	#header-content-button {
+		background-color: #F16718;
+		color: white;
+		margin: 0px 39px 0px 0px;
+	}
+	#header-content-button:hover {
+		background-color: #FF9B62;
+	}
+	#header-content-pic {
+		width: 540px;
+		height: inherit;
+		margin: 0px 30px 0px 125px;
+		background: url("../images/desktop/image-keyboard.jpg") right/540px 480px no-repeat;
+		border-radius: 20px;
+	}
+	#header-content-greyDeco {
+		border-bottom-left-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+}
