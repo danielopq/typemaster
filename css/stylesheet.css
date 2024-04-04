@@ -34,6 +34,9 @@ input[type="button"]{
 	border-radius: 8px;
 	border:none;
 }
+input[type="button"]:hover{
+	cursor: pointer;
+}
 h1{
 	font: 900 56px/56px 'Barlow black';
 	color: #162542;
@@ -84,6 +87,10 @@ header{
 	background-color: #E8EFF2;
 	color: black;
 }
+#header-top-button:hover{
+	background-color: #162542;
+	color: white;
+}
 /*------------ HEADER-CONTENT ------------*/
 #header-content{
 	width: inherit;
@@ -129,6 +136,9 @@ header{
 	background-color: #F16718;
 	color: white;
 	margin: 0px 39px 0px 0px;
+}
+#header-content-button:hover{
+	background-color:#FF9B62;
 }
 #header-content-pic{
 	width: 540px;
