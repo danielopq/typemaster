@@ -307,6 +307,7 @@ footer p {
 	#header-content {
 		width: inherit;
 		height: 681px;
+		flex-direction: column;
 		padding: 0px 24px;
 		margin-top: 64px;
 	}
@@ -324,25 +325,16 @@ footer p {
 	}
 	#header-content-info div {
 		height: 48px;
+		justify-content: space-between;
 		line-height: 48px;
 	}
 	#header-content-button {
-		background-color: #F16718;
-		color: white;
-		margin: 0px 39px 0px 0px;
-	}
-	#header-content-button:hover {
-		background-color: #FF9B62;
+		margin: 0px;
 	}
 	#header-content-pic {
-		width: 540px;
-		height: inherit;
-		margin: 0px 30px 0px 125px;
-		background: url("../images/desktop/image-keyboard.jpg") right/540px 480px no-repeat;
-		border-radius: 20px;
-	}
-	#header-content-greyDeco {
-		border-bottom-left-radius: 20px;
-		border-top-left-radius: 20px;
+		width: 372px;
+		height: 331px;
+		margin: 64px 0px 0px;
+		background: url("../images/mobile/image-keyboard.jpg") right/372px no-repeat;
 	}
 }
