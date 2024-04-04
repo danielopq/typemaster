@@ -111,10 +111,8 @@ main{
 	justify-content: space-between;
 	margin-top: 30px;
 }
-main > div{
-	width: inherit;
-}
 #main-description{
+	width: inherit;
 	height: 480px;
 	display: flex;
 	justify-content: space-between;
@@ -151,15 +149,56 @@ main > div{
 	margin: 27px 0px 0px;
 }
 #main-features{
+	width: 1110px;
 	height: 323px;
+	display:grid;
+	grid-template-columns: 255px 255px 255px 255px;
+	grid-template-rows: 323px;
+	grid-template-areas: "compatible wireless battery rgb-mode";
+	grid-gap: 30px;
+}
+.feature{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+}
+.feature div{
+	width: 65px;
+	height: 65px;
+}
+.feature h3{
+	width: 255px;
+	height: 76px;
+	margin:0px;
+}
+.feature p{
+	width: 255px;
+	height: 130px;
+	margin:0px;
+}
+#featPic-compatible{
+	grid-area: compatible;
+}
+#feat-wireless{
+	grid-area: wireless;
+}
+#feat-battery{
+	grid-area:battery;
+}
+#feat-rgb{
+	grid-area: rgb-mode;
 }
 /*################################ FOOTER ################################*/
 footer{
 	width: 272px;
 	height: 26px;
-	margin-top: 128px;
+	margin: 128px 0px 39px;
 }
-
+footer p{
+	margin: auto;
+	padding: 0px;
+}
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
