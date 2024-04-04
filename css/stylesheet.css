@@ -288,7 +288,55 @@ footer p {
 /*############################################################################*/
 /*############################## TABLET VERSION ##############################*/
 /*############################################################################*/
-@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+	/*------------ GENERAL ------------*/
+	.grey-deco{
+		display:none;
+	}
+	h1 {
+	font: 900 48px/48px 'Barlow black';
+	}
+	/*------------ HEADER ------------*/
+	header {
+		width: 100vw;
+		margin-top: 40px;
+	}
+	/*------------ HEADER-TOP ------------*/
+	#header-top {
+		width: 689px;
+		padding: 0px;
+	}
+	/*------------ HEADER-CONTENT ------------*/
+	#header-content {
+		width: 729px;
+		height: 425px;
+		padding: 0px;
+		margin: 62px 0px 0px 0px;
+		align-self: flex-end;
+	}
+	#header-content-info {
+		width: 339px;
+		height: 305px;
+		margin-top: 60px;
+	}
+	#header-content-info h1 {
+		height: 96px;
+	}
+	#header-content-info > p {
+		margin: 34px 0px 39px;
+		font-size: 16px;
+	}
+	#header-content-info div {
+		justify-content: space-between;
+	}
+	#header-content-pic {
+		width: 320px;
+		height: 425px;
+		margin: 0px 0px 0px 69px;
+		background: url("../images/tablet/image-keyboard.jpg") left/478px 425px no-repeat;
+		border-radius: 20px 0px 0px 20px;
+	}
+}
 /*############################################################################*/
 /*############################## MOBILE VERSION ##############################*/
 /*############################################################################*/
