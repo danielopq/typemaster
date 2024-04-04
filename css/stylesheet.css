@@ -49,6 +49,11 @@ h3{
 	font: 500 16px/26px 'Barlow medium';
 	color: #7B8BAD;
 }
+.grey-deco{
+	width: 135px;
+	height: 210px;
+	background-color: #E8EFF2;
+}
 /*################################ HEADER ################################*/
 
 body *{
@@ -136,9 +141,6 @@ header{
 	border-radius: 20px;
 }
 #header-content-greyDeco{
-	width: 135px;
-	height: 210px;
-	background-color: #E8EFF2;
 	border-bottom-left-radius: 20px;
 	border-top-left-radius: 20px;
 }
@@ -162,19 +164,31 @@ main{
 }
 
 #description-greyDeco{
-	width: 170px;
-	height: 210px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
 	margin-top: 270px;
 }
 
 #description-pic01{
 	width: 255px;
 	height: inherit;
+	background: url("../images/desktop/image-phone-and-keyboard.jpg") center/255px no-repeat;
+	border-radius: 20px;
 }
+#pic01-mask{
+	width: inherit;
+	height: inherit;
+	background-color: #F16718;
+	mix-blend-mode: multiply;
+	border-radius: 20px;
+}
+
 
 #description-pic02{
 	width: 445px;
 	height: inherit;
+	background: url("../images/desktop/image-glass-and-keyboard.jpg") center/445px no-repeat;
+	border-radius: 20px;
 }
 #description-text{
 	width: 480px;
