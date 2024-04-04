@@ -160,9 +160,14 @@ main {
 #main-description {
 	width: inherit;
 	height: 480px;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: 135px 255px 445px 515px;
+	grid-template-rows: 480px;
+	grid-gap: 30px;
+	grid-template-areas: "greyDeco pic01 pic02 descText";
+}
+#description-greyDeco-container{
+	grid-area: greyDeco;
 }
 #description-greyDeco {
 	border-top-right-radius: 20px;
@@ -170,27 +175,24 @@ main {
 	margin-top: 270px;
 }
 #description-pic01 {
-	width: 255px;
-	height: inherit;
+	grid-area: pic01;
 	background: url("../images/desktop/image-phone-and-keyboard.jpg") center/255px no-repeat;
 	border-radius: 20px;
 }
 #pic01-mask {
-	width: inherit;
-	height: inherit;
+	width: 100%;
+	height: 100%;
 	background-color: #F16718;
 	mix-blend-mode: multiply;
 	border-radius: 20px;
 }
 #description-pic02 {
-	width: 445px;
-	height: inherit;
+	grid-area: pic02;
 	background: url("../images/desktop/image-glass-and-keyboard.jpg") center/445px no-repeat;
 	border-radius: 20px;
 }
 #description-text {
-	width: 515px;
-	height: inherit;
+	grid-area: descText;
 	padding: 112px 0px 0px 60px;
 }
 #description-text > * {
@@ -336,5 +338,105 @@ footer p {
 		height: 331px;
 		margin: 64px 0px 0px;
 		background: url("../images/mobile/image-keyboard.jpg") right/372px no-repeat;
+	}
+	/*------------ MAIN ------------*/
+	main {
+		width: 100vw;
+		height: 1995px;
+		margin-top: 24px;
+	}
+	/*------------ MAIN DESCRIPTION ------------*/
+	#main-description {
+		height: 504px;
+		justify-content: space-between;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	#description-images-pic01 {
+		width: 129px;
+		height: 193px;
+		background: url("../images/mobile/image-phone-and-keyboard.jpg") right/129px no-repeat;
+	}
+	#description-pic02 {
+		width: 220px;
+		height: 193px;
+		margin: 0px 24px;
+		background: url("../images/mobile/image-glass-and-keyboard.jpg") center/220px no-repeat;
+	}
+	#description-text {
+		width: 515px;
+		height: inherit;
+		padding: 112px 0px 0px 60px;
+	}
+	#description-text > * {
+		width: 255px;
+	}
+	#description-text h2 {
+		margin: 0px;
+	}
+	/*------------ MAIN FEATURES ------------*/
+	#description-text p {
+		margin: 27px 0px 0px;
+	}
+	#main-features {
+		width: 1110px;
+		height: 323px;
+		display: grid;
+		grid-template-columns: 255px 255px 255px 255px;
+		grid-template-rows: 323px;
+		grid-template-areas: "compatible wireless battery rgb-mode";
+		grid-gap: 30px;
+	}
+	.feature {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		text-align: left;
+	}
+	.feature div {
+		width: 65px;
+		height: 65px;
+		border-radius: 16px;
+		background-color: #F16718;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.feature h3 {
+		width: 255px;
+		height: 56px;
+		margin: 48px 0px 0px;
+	}
+	.feature p {
+		width: 255px;
+		height: 130px;
+		margin: 24px 0px 0px;
+	}
+	#feat-compatible {
+		grid-area: compatible;
+	}
+	#featPic-compatible {
+		background-image: url("../images/shared/icon-compatible.svg");
+		background-size: 26px;
+	}
+	#feat-wireless {
+		grid-area: wireless;
+	}
+	#featPic-wireless {
+		background-image: url("../images/shared/icon-bluetooth.svg");
+		background-size: 19px;
+	}
+	#feat-battery {
+		grid-area: battery;
+	}
+	#featPic-battery {
+		background-image: url("../images/shared/icon-battery.svg");
+		background-size: 32px
+	}
+	#feat-rgb {
+		grid-area: rgb-mode;
+	}
+	#featPic-rgbMode {
+		background-image: url("../images/shared/icon-light.svg");
+		background-size: 32px;
 	}
 }
