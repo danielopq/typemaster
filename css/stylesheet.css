@@ -32,6 +32,7 @@ input[type="button"]{
 	height: 58px;
 	font: bold 16px/26px 'Barlow medium';
 	border-radius: 8px;
+	border:none;
 }
 h1{
 	font: 900 56px/56px 'Barlow black';
@@ -55,16 +56,12 @@ h3{
 	background-color: #E8EFF2;
 }
 /*################################ HEADER ################################*/
-
-body *{
-	border: solid 1px red;
-}
-
 header{
 	width:1440px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 55px;
 }
 /*------------ HEADER-TOP ------------*/
 #header-top{
@@ -155,6 +152,7 @@ main{
 	justify-content: space-between;
 	margin-top: 30px;
 }
+/*------------ MAIN DESCRIPTION ------------*/
 #main-description{
 	width: inherit;
 	height: 480px;
@@ -182,8 +180,6 @@ main{
 	mix-blend-mode: multiply;
 	border-radius: 20px;
 }
-
-
 #description-pic02{
 	width: 445px;
 	height: inherit;
@@ -191,7 +187,7 @@ main{
 	border-radius: 20px;
 }
 #description-text{
-	width: 480px;
+	width: 515px;
 	height: inherit;
 	padding: 112px 0px 0px 60px;
 }
@@ -201,6 +197,7 @@ main{
 #description-text h2{
 	margin:0px;
 }
+/*------------ MAIN FEATURES ------------*/
 #description-text p{
 	margin: 27px 0px 0px;
 }
@@ -222,6 +219,10 @@ main{
 .feature div{
 	width: 65px;
 	height: 65px;
+	border-radius: 16px;
+	background-color: #F16718;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 .feature h3{
 	width: 255px;
@@ -233,17 +234,33 @@ main{
 	height: 130px;
 	margin: 24px 0px 0px;
 }
-#featPic-compatible{
+#feat-compatible{
 	grid-area: compatible;
+}
+#featPic-compatible{
+	background-image: url("../images/shared/icon-compatible.svg");
+	background-size: 26px;
 }
 #feat-wireless{
 	grid-area: wireless;
 }
+#featPic-wireless{
+	background-image: url("../images/shared/icon-bluetooth.svg");
+	background-size: 19px;
+}
 #feat-battery{
 	grid-area:battery;
 }
+#featPic-battery{
+	background-image: url("../images/shared/icon-battery.svg");
+	background-size: 32px
+}
 #feat-rgb{
 	grid-area: rgb-mode;
+}
+#featPic-rgbMode{
+	background-image: url("../images/shared/icon-light.svg");
+	background-size: 32px;
 }
 /*################################ FOOTER ################################*/
 footer{
