@@ -27,6 +27,28 @@ body{
 	align-items: center;
 }
 
+input[type="button"]{
+	width: 155px;
+	height: 58px;
+	font: bold 16px/26px 'Barlow medium';
+	border-radius: 8px;
+}
+h1{
+	font: 900 56px/56px 'Barlow black';
+	color: #162542;
+}
+h2{
+	font: 900 32px/36px 'Barlow black';
+	color: #162542;
+}
+h3{
+	font: 900 24px/28px 'Barlow black';
+	color: #162542;
+}
+.text-medium{
+	font: 500 16px/26px 'Barlow medium';
+	color: #7B8BAD;
+}
 /*################################ HEADER ################################*/
 
 body *{
@@ -39,6 +61,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 }
+/*------------ HEADER-TOP ------------*/
 #header-top{
 	width: inherit;
 	height: 58px;
@@ -53,7 +76,13 @@ header{
 #top-logo{
 	width: 40px;
 	height: 40px;
+	background: url("../images/shared/logo.svg") center/40px no-repeat;
 }
+#header-top-button{
+	background-color: #E8EFF2;
+	color: black;
+}
+/*------------ HEADER-CONTENT ------------*/
 #header-content{
 	width: inherit;
 	height: 480px;
@@ -80,9 +109,11 @@ header{
 	margin: 0px;
 }
 
-#header-content-info p{
+#header-content-info > p{
 	height: 78px;
 	margin: 24px 0px 40px;
+	font: 500 18px/26px 'Barlow medium';
+	color: #7B8BAD;
 }
 
 #header-content-info div{
@@ -92,13 +123,24 @@ header{
 	justify-content: flex-start;
 	line-height: 58px;
 }
+#header-content-button{
+	background-color: #F16718;
+	color: white;
+	margin: 0px 39px 0px 0px;
+}
 #header-content-pic{
 	width: 540px;
+	height: inherit;
 	margin: 0px 30px 0px 125px;
+	background: url("../images/desktop/image-keyboard.jpg") right/540px 480px no-repeat;
+	border-radius: 20px;
 }
 #header-content-greyDeco{
-	width: 170px;
+	width: 135px;
 	height: 210px;
+	background-color: #E8EFF2;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
 }
 /*################################ MAIN ################################*/
 
@@ -169,13 +211,13 @@ main{
 }
 .feature h3{
 	width: 255px;
-	height: 76px;
-	margin:0px;
+	height: 56px;
+	margin:48px 0px 0px;
 }
 .feature p{
 	width: 255px;
 	height: 130px;
-	margin:0px;
+	margin: 24px 0px 0px;
 }
 #featPic-compatible{
 	grid-area: compatible;
