@@ -172,7 +172,7 @@ main {
 #description-images-greyDeco {
 	border-top-right-radius: 20px;
 	border-bottom-right-radius: 20px;
-	margin-top: 270px;
+	margin-top: 240px;
 }
 #description-images-pic01 {
 	width: 255px;
@@ -276,7 +276,7 @@ main {
 }
 /*################################ FOOTER ################################*/
 footer {
-	width: 272px;
+	width: 280px;
 	height: 26px;
 	margin: 128px 0px 39px;
 }
