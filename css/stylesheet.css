@@ -276,9 +276,10 @@ main {
 }
 /*################################ FOOTER ################################*/
 footer {
-	width: 280px;
+	width: 290px;
 	height: 26px;
 	margin: 128px 0px 39px;
+	text-align: center;
 }
 footer p {
 	margin: auto;
