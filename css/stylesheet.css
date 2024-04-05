@@ -203,13 +203,12 @@ main {
 	text-align: left;
 	margin: 112px 0px 0px 125px;
 }
-#main-description-text > * {
-	width: inherit;
-}
 #main-description-text h2 {
+	width: inherit;
 	margin: 0px;
 }
 #main-description-text p {
+	width: inherit;
 	margin: 27px 0px 0px;
 }
 /*------------ MAIN FEATURES ------------*/
@@ -290,11 +289,11 @@ footer p {
 /*############################################################################*/
 @media (min-width: 768px) and (max-width: 1023px) {
 	/*------------ GENERAL ------------*/
-	.grey-deco{
-		display:none;
+	.grey-deco {
+		display: none;
 	}
 	h1 {
-	font: 900 48px/48px 'Barlow black';
+		font: 900 48px/48px 'Barlow black';
 	}
 	/*------------ HEADER ------------*/
 	header {
@@ -311,8 +310,7 @@ footer p {
 		width: 729px;
 		height: 425px;
 		padding: 0px;
-		margin: 62px 0px 0px 0px;
-		align-self: flex-end;
+		margin: 62px 0px 0px 40px;
 	}
 	#header-content-info {
 		width: 339px;
@@ -335,6 +333,66 @@ footer p {
 		margin: 0px 0px 0px 69px;
 		background: url("../images/tablet/image-keyboard.jpg") left/478px 425px no-repeat;
 		border-radius: 20px 0px 0px 20px;
+	}
+	/*------------ MAIN ------------*/
+	main {
+		width: 100vw;
+		height: 1292px;
+		margin-top: 40px;
+	}
+	/*------------ MAIN DESCRIPTION ------------*/
+	#main-description {
+		width: 689px;
+		height: 500px;
+		flex-direction: column;
+	}
+	#main-description-images {
+		width: inherit;
+		height: 320px;
+		align-items: center;
+	}
+	#description-images-pic01 {
+		width: 214px;
+		height: 320px;
+		background: url("../images/tablet/image-phone-and-keyboard.jpg") center/214px no-repeat;
+		margin: 0px 30px 0px 0px;
+	}
+	#description-images-pic02 {
+		width: 445px;
+		background: url("../images/tablet/image-glass-and-keyboard.jpg") center/445px no-repeat;
+	}
+	#main-description-text {
+		width: 689px;
+		height: 108px;
+		flex-direction: row;
+		justify-content: space-between;
+		margin: 72px 0px 0px 0px;
+	}
+	#main-description-text h2 {
+		width: 255px;
+		margin: 0px;
+	}
+	#main-description-text p {
+		width: 398px;
+		margin: 0px 0px 0px;
+	}
+	/*------------ MAIN FEATURES ------------*/
+	#main-features {
+		width: 631px;
+		height: 650px;
+		grid-template-columns: 281px 281px;
+		grid-template-rows: 289px 289px;
+		grid-template-areas: "compatible wireless""battery rgb-mode";
+		grid-column-gap: 69px;
+		grid-row-gap: 72px;
+	}
+	.feature h3 {
+		margin: 40px 0px 0px;
+	}
+	.feature p {
+		width: 281px;
+		height: 104px;
+		margin: 24px 0px 0px;
 	}
 }
 /*############################################################################*/
