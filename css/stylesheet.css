@@ -25,7 +25,7 @@ body {
 	align-items: center;
 }
 input[type="button"] {
-	width: 155px;
+	width: 175px;
 	height: 58px;
 	font: bold 16px/26px 'Barlow medium';
 	border-radius: 8px;
@@ -52,7 +52,7 @@ h3 {
 }
 .grey-deco {
 	width: 135px;
-	height: 210px;
+	height: 240px;
 	background-color: #E8EFF2;
 }
 /*################################ HEADER ################################*/
@@ -220,7 +220,7 @@ main {
 	grid-template-rows: 323px;
 	grid-template-areas: "compatible wireless battery rgb-mode";
 	grid-gap: 30px;
-	margin-top: 142px;
+	margin-top: 168px;
 }
 .feature {
 	display: flex;
