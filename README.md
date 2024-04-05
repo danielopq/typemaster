@@ -18,9 +18,9 @@ Responsive Frontend development for a keyboard selling website. It is optimized 
 ### Screenshot
 
 
-- Desktop version: [https://github.com/danielopq/typemaster/blob/main/screenshots/desktop.jpg]
-- Tablet version: [https://github.com/danielopq/typemaster/main/screenshots/tablet.jpg]
-- Mobile version: [https://github.com/danielopq/typemaster/main/screenshots/mobile.jpg]
+- Desktop version: [https://github.com/danielopq/typemaster/blob/main/screenshots/desktop.png]
+- Tablet version: [https://github.com/danielopq/typemaster/main/screenshots/tablet.png]
+- Mobile version: [https://github.com/danielopq/typemaster/main/screenshots/mobile.png]
 
 
 
