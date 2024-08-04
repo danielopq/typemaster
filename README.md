@@ -13,46 +13,37 @@
 
 ## Overview
 
-Responsive Frontend development for a keyboard selling website. It is optimized for desktop (1440px) tablet (768px) and mobile (375px). The elements have been set according to the design images provided. Built with HTML, CSS and JavaScript. No frameworks were used.
+Responsive frontend development for a keyboard sales website. Optimized for desktop (1440px), tablet (768px), and mobile (375px) screens. The elements have been arranged according to the design images provided. Built with HTML, CSS, and JavaScript, with no frameworks used.
 
 ### Screenshot
 
 
 - Desktop version: [https://github.com/danielopq/typemaster/blob/main/screenshots/desktop.png]
-- Tablet version: [https://github.com/danielopq/typemaster/main/screenshots/tablet.png]
-- Mobile version: [https://github.com/danielopq/typemaster/main/screenshots/mobile.png]
+- Tablet version: [https://github.com/danielopq/typemaster/blob/main/screenshots/tablet.png]
+- Mobile version: [https://github.com/danielopq/typemaster/blob/main/screenshots/mobile.png]
 
 
 
 ### Links
 
-- Live Site URL: [https://danielmartinez.co.uk/projects/typemaster]
+- Live Site URL: [https://danielopq.github.io/typemaster]
 
 ## My process
 
-I created the website entirely for the desktop version. Once all of the elements were in place and with the right design requirement, I adapted it to the mobile version using just a CSS media query.
+I created the website entirely for the desktop version. Once all of the elements were in place and met the design requirements, I adapted it to the mobile and the tablet version using just a CSS media query.
 
 ### Built with
 
-- Adobe dreamweaver
+- Adobe dreamweaver / visual studio code
 - Adobe photoshop
+- Figma
 - Git
-- HTML5
+- HTML
 - CSS
-
-### Useful resources
-
-- [https://www.w3schools.com] - I constantly use this website while I am building website with CSS.
 
 ## Author
 
-My name is Daniel Martinez. I am eager to be given a role as a junior position where I can gain further knowledge and experience.
-
-I demonstrated strong academic performance in database design and management (SQL), object-oriented programming (JAVA) and website development (HTML, PHP, JavaScript, CSS). The courses I have completed have given me a solid knowledge in the software development area and I have a proven ability to learn challenging concepts quickly.
-
-In addition to this I possess a Bachelor's degree in visual arts and communication that has provided me advanced design skills. I am also able to work within tight deadlines and to develop multiple projects simultaneously; therefore I believe I would be a very strong junior asset to any organization.
-
-If you agree that I would make a valuable addition to your team, please feel free to call me at 07 778 639 835 or email me at danielopq@gmail.com. 
+I am a focused and dedicated professional with a strong educational foundation and hands-on experience in programming and web development. My expertise in PHP, SQL, JavaScript, HTML, CSS, JAVA and other modern web technologies enables me to build engaging, efficient, and visually appealing websites that meet both user needs and business goals.
 
 - linkedin - [www.linkedin.com/in/danielmartinezduque]
 
