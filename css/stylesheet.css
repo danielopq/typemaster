@@ -35,7 +35,6 @@ input[type="button"]:hover {
 	cursor: pointer;
 }
 h1 {
-	margin: 0px;
 	padding: 0px;
 	font: 900 56px/56px 'Barlow black';
 	color: #162542;
@@ -45,6 +44,8 @@ h2 {
 	color: #162542;
 }
 h3 {
+	margin: 0px;
+	padding: 0px;
 	font: 900 24px/28px 'Barlow black';
 	color: #162542;
 }
@@ -113,10 +114,12 @@ header {
 #header-content-info h1 {
 	height: 112px;
 	margin: 0px;
+	padding: 0px;
 }
 #header-content-info > p {
 	height: 78px;
 	margin: 24px 0px 40px;
+	padding: 0px;
 	font: 500 18px/26px 'Barlow medium';
 	color: #7B8BAD;
 }
@@ -280,8 +283,9 @@ main {
 footer {
 	width: 290px;
 	height: 26px;
-	margin: 128px 0px 39px;
-	text-align: center;
+	align-self: flex-start;
+	margin: 128px 0px 30px 605px;
+	text-align: center;	
 }
 footer p {
 	margin: auto;
@@ -531,6 +535,7 @@ footer p {
 	}
 	/*------------ FOOTER ------------*/
 	footer {
+		align-self: center;
 		margin: 96px 0px 39px;
 	}
 }
