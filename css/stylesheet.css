@@ -35,6 +35,8 @@ input[type="button"]:hover {
 	cursor: pointer;
 }
 h1 {
+	margin: 0px;
+	padding: 0px;
 	font: 900 56px/56px 'Barlow black';
 	color: #162542;
 }
